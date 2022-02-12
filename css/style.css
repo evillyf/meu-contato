@@ -17,6 +17,44 @@ body {
   color: #fff;
   font-size: 15px;
   margin: 0; }
+  
+  
+.fa {
+  padding: 15px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30%;
+  height: 50px;
+
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-instagram {
+  color: white;
+}
+
+/* Twitter */
+.fa-whatsapp {
+  color: white;
+}
+
+/* Twitter */
+.fa-github {
+  color: white;
+}
+
+.icons{
+position: center;
+}
 
 input, textarea, select, button {
   font-family: "Montserrat-Regular";
@@ -43,12 +81,13 @@ a:hover {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url("../images/bg-registration-form-7.jpg") no-repeat;
+  background: url("../images/banguela.jpg") no-repeat;
   background-size: cover; }
 
 .inner {
   max-width: 758px;
   margin: auto;
+  opacity: 0.5;
   background: #39459b;
   border: 10px solid #0d99d7;
   padding: 77px 99px 87px;
